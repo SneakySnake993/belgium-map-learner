@@ -1,0 +1,25 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .belgium-map {
+    width: 100%;
+    height: auto;
+  }
+  
+  .belgium-map path {
+    transition: transform 0.3s ease, fill 0.3s ease, box-shadow 0.3s ease;
+    stroke: #ffffff;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  
+  .belgium-map path:hover {
+    transform: scale(1.02);
+    fill: #3498db;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  }
+  
